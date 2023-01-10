@@ -1,0 +1,23 @@
+.Die-img {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    border-radius: 6px;
+}
+.disable {
+    opacity: 0.5;
+}
+.Die input[disabled] {
+   cursor: not-allowed;
+}
+.Die-rolling {
+    animation: spin 1s ease-out;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

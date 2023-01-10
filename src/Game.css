@@ -1,0 +1,34 @@
+.Game-dice{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   justify-content: center;
+   padding:20px;
+   background-color: rebeccapurple;
+   max-width: 40rem;
+   margin: auto;
+}
+.Game h1 {
+    font-weight: normal;
+  letter-spacing: 2px;
+  margin-top: -30px;
+  font-size: 3rem;
+}
+.Game-dice button {
+    grid-area: 2/3/2/4;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgb(122, 88, 155);
+    margin-bottom: 2rem;
+    background-image: linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 225, 255), rgb(0, 255, 149));
+    cursor: pointer;
+}
+.Game-dice button[disabled] {
+    cursor: not-allowed
+}
+.Game-scores {
+    max-width: 40.7rem;
+    margin: -1rem auto 0 auto;
+    background-color: white;
+    padding: 15px;
+}
